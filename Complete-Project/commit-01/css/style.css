@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html{
+    box-sizing: border-box;  
+    margin: 0 auto; 
+}
+.templete{
+    width: 960px;
+    margin: 0 auto;
+}
+
+body{
+    font-size: 14px;
+    line-height: 18px;
+    background-color:rgb(48, 58, 54);
+}
+.header, .main, .footer{
+
+}
+/* header css */
+.header{
+    background-color: #3bf080a6;
+    height: 110px;
+    margin-top: 10px; 
+    margin-bottom: 10px;  
+    box-shadow: 0px 6px 0px 0px white;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.logo{
+    float: left;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.nav{
+    float: right;
+    margin-top: 21px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.nav ul li :not(:last-child) {
+    margin-right: 100px;
+}
+.nav ul li:last-child{
+    margin-right: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid rgb(243, 242, 242);
+    padding: 10px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.nav ul li a:hover{
+    background-color: #3bf080a6;
+}
+body{
+    /* background-color: rgba(27,31,34); */
+}
+/* h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+} */
+.maindiv{
+    width: 960px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/051.jpg);
+    background-size: 100% 100%;
+    box-shadow:0px 7px 0px 0px rgb(248, 246, 246);
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{ background-image: url(../img/051.jpg);}
+    35%{ background-image: url(../img/052.jpg);}
+    75%{ background-image: url(../img/049.jpg);}
+}
+/* main css */
+.main {
+    background-color: yellow;
+    height: 100hv;
+    margin-top: 420px;
+    width: 960px;
+}
+.main h1{
+    text-align: center;
+    line-height: 500px;
+}
+/* footer css */
+.footer{
+    background-color: rgb(0, 255, 115);
+    height: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.footer p{
+    color: cornsilk;
+    text-align: center;
+    line-height: 6em;
+   
+}
