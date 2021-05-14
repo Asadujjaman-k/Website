@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+}
+.templete {
+  width: 960px;
+  margin: 0 auto;
+}
+.clear {
+  overflow: hidden;
+}
+.Headersection {
+  background: #b7801c;
+  color: #fff; 
+}
+.logo{width: 430px; float: left;}
+.logo img{
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 70px;
+}
+.logo h2{
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 11px;
+  margin-top: 24px;
+  text-shadow: 2px 2px 0 #666;
+}
+.logo p{}
+.social{
+  width: 255px; 
+  float: right;
+   padding-top: 16px;}
+.social img{width: 60px;}
+.Navsection {
+  background: #e6af4b;
+}
+.Navsection ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.Navsection ul li {
+  display: block;
+  float: left;
+}
+.Navsection ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #b7801c;
+  background: #c48d29;
+  border-radius: 2px;
+}
+.Navsection ul li a:hover {
+  background: #fef4e5;
+  color: #333;
+}
+.contentsection {
+  background: #ffffff;
+}
+.Maincontent {
+  width: 500px;
+  background: #fef4e5;
+  float: left;
+  margin: 15px 15px 15px 0;
+  padding: 8px 20px;
+  width: 620px;
+  border: 1px solid #b7801c;
+}
+.samepost {
+}
+.samepost h2 {
+  border-bottom: 2px solid #e0d6c7;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.samepost img {
+  background: #fff;
+  border: 1px solid #ebb450;
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+  width: 200px;
+}
+.samepost p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: justify;
+}
+.readmore {
+  float: right;
+  margin-top: 10px;
+}
+.readmore a {
+  background: #fff;
+  border: 1px solid#b7801c;
+  border-radius: 3px;
+  color: #b7801c;
+  display: block;
+  font-size: 17px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+.readmore a:hover {
+  color: #0a4898;
+}
+.sidebar {
+  width: 253px;
+  background: #fef4e5;
+  float: right;
+  margin-top: 15px;
+  padding: 10px; 
+  margin-bottom: 15px;
+  border: 1px solid #b7801c;
+}
+.samesidebar {
+}
+.samesidebar h2 {
+  background: #e6af4b;
+  border-bottom: 2px solid #555555;
+  color: #444;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+.samesidebar p {
+  margin-bottom: 10px;
+}
+.footersection {
+  height: 90px;
+  background: #b7801c;
+}
+.footersection p {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.footersection;
