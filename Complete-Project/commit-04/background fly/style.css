@@ -1,0 +1,9 @@
+.bg-1{
+    width: 900px;
+    height: 450px;
+    margin: 100px auto 0;
+    /* background  */
+    background-color: brown;
+    background-image: url(../img/th.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
