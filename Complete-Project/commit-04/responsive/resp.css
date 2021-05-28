@@ -1,0 +1,22 @@
+.content{
+    background-color: brown;
+    color: #fff;
+    padding: 15px;
+}
+img{
+    display: block;
+}
+.content-area{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 768px){
+    .content{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .content{
+        margin-bottom: 400px;
+        margin: 0 auto 30px;
+    }
+}
