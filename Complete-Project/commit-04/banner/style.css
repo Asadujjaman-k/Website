@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.img-fluid{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+}
+.brand-name{
+    float: left;
+}
+
+.brand-name img{
+    max-height: 70px;
+    padding: 10px 0;
+}
+.navbar{
+    background-color: rgba(204,204,204,0.5);
+}
+.navigation{
+    float: right;
+}
+.navigation ul .nav{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navigation ul .nav li{
+    float: left;
+    border-right: 1px solid #000;
+}
+.navigation ul .nav li a{
+    display: block;
+    padding: 0 30px;
+    line-height: 74px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    transition: 1s;
+}
+.navigation ul.nav li a:hover,.navigation ul.nav li a:focus{
+    background-color: #000;
+    color: #ccc;
+}
+.banner-area{
+    position: relative;
+}
+.header-area{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+@media only screen only and (max-width: 850px){
+    .navigation ul .nav li{
+        float: none;
+        border-right: none;
+    }
+.navbar{
+    position: relative;
+}
+.navbar ul.nav{
+    position: absolute;
+    top: 74px;
+    left: 0;
+    background-color: rgba(0,0,0,0,5);
+}
+.navbar ul.nav lia{
+    line-height: 50px;
+}
+}
